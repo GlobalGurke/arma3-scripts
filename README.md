@@ -13,6 +13,9 @@ content:
     
 
 usage:
+create a folder callled functions in your Mission folder and add the content of arma3-scripts folder 
+
+
 description.ext 
 
 class cfgFunctions {
