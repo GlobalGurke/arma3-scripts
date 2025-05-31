@@ -12,3 +12,15 @@ content:
     - If ace action is used, player can walk normaly as long as other player is near him 
     
 
+usage:
+description.ext 
+
+class cfgFunctions {
+	#include "functions\cfgfunctions.hpp"
+}; 
+
+initPlayerLocal.sqf 
+
+private _ehId = addUserActionEventHandler ["ingamePause", "Activate", {
+	call CLIENT_fnc_saveData;
+}];
